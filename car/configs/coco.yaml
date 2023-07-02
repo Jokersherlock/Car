@@ -1,0 +1,18 @@
+DATASET:
+  TRAIN: "F:/study/electronic/data_f/train.txt"
+  VAL: "F:/study/electronic/data_f/val.txt"
+  NAMES: "F:/study/electronic/data_f/category.names"
+MODEL:
+  NC: 8
+  INPUT_WIDTH: 352
+  INPUT_HEIGHT: 352
+TRAIN:
+  LR: 0.001
+  THRESH: 0.25
+  WARMUP: true
+  BATCH_SIZE: 64
+  END_EPOCH: 300
+  MILESTIONES:
+    - 100
+    - 200
+    - 250
